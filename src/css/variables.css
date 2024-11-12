@@ -1,0 +1,9 @@
+:root {
+    --fundo-principal: hsl(233, 47%, 7%);
+    --fundo-do-cartao: hsl(244, 38%, 16%);
+    --destaque: hsl(277, 64%, 61%);
+    --titulo-principal-estatisticas: hsl(0, 0%, 100%);
+    --paragrafo-principal: hsla(0, 0%, 100%, 0.75);
+    --titulos-de-estatisticas:hsla(0, 0%, 100%, 0.6);
+
+}
