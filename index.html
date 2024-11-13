@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
     <title>Frontend Mentor | Stats preview card component</title>
 </head>
@@ -34,9 +35,11 @@
                 </li>
             </ul>
         </div>
-        <figure class="image-card">
+        <picture class="image-card">
+            <source media="(max-width: 580px)" srcset="./src/images/image-header-mobile.jpg">
+            <source media="(max-width: 1110px)" srcset="./src/images/image-header-mediun.jpg">
             <img src="./src/images/image-header-desktop.jpg" alt="Image header">
-        </figure>
+        </picture>
     </main>
 </body>
 

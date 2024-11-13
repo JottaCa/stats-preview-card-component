@@ -53,6 +53,7 @@ body {
 .preview-card .informations-card .stats li span {
     font-size: 25px;
     color: var(--titulo-principal-estatisticas);
+    font-weight: 600;
 }
 
 .preview-card .informations-card .stats li h3 {
@@ -62,7 +63,7 @@ body {
     font-family: "Lexend Deca", serif;
     font-weight: 400;
     font-size: 13px;
-    /* letter-spacing: 0.5px; */
+    letter-spacing: 0.5px;
 }
 
 .preview-card .image-card {
